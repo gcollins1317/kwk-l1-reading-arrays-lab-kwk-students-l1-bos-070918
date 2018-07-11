@@ -10,7 +10,6 @@ STUDENT_NAMES = [
 def first_student_by_index
   puts STUDENT_NAMES[0]
 end
-first_student_by_index
 
 def fourth_student_by_index
   puts STUDENT_NAMES[3]
@@ -31,3 +30,4 @@ end
 def first_second_and_third_students
   puts STUDENT_NAMES[0,1,2]
 end
+first_second_and_third_students
